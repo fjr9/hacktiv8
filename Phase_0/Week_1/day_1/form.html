@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mybook | Book's Form</title>
+  </head>
+  <body>
+    <h1>Buat Account Baru</h1>
+
+
+  <form action="welcome.html" method="post">
+    <p>
+        <label for="firstName">First Name</label><br>
+        <input id="firstName" name="firstName" type="text"><br><br>
+        <label for="lastName">Last Name</label><br>
+        <input id="lastName" name="lastName" type="text"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input id="male-radio" type="radio" name="gender" value="male">
+        <label for="male-radio">Male</label><br>
+        <input id="female-radio" type="radio" name="gender" value="female">
+        <label for="female-radio">Female</label><br>
+        <input id="other-radio" type="radio" name="gender" value="other">
+        <label for="other-radio">Other</label><br><br>
+
+        <label for="nationality">Nationality:</label><br>
+        <select name="nationality">
+          <option value="Indonesia">Indonesian</option>
+          <option value="Malay">Malay</option>
+          <option value="UK">UK</option>
+          <option value="US">US</option>
+          <option value="Madagaskar">Madagaskar</option>
+        </select><br><br>
+
+        <label for="language">Language spoken:</label><br>
+        <input id="bahasa-checkbox" type="checkbox" name="skill" value="bahasa">
+        <label for="bahasa-checkbox">Bahasa Indonesia</label><br>
+        <input id="english-checkbox" type="checkbox" name="skill" value="english">
+        <label for="english-checkbox">English</label><br>
+        <input id="others-checkbox" type="checkbox" name="skill" value="others">
+        <label for="others-checkbox">others</label><br><br>
+
+        <label for="bio-textArea">Bio:</label><br>
+        <textarea name="bio" rows="10" cols="30">
+        </textarea><br><br>
+        <input type="submit" value="submit">
+    </p>
+  </form>
+
+  </body>
+</html>
